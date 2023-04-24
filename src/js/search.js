@@ -1,7 +1,4 @@
-
-console.log('search.js loaded');
 function submit_search_form(){
-    console.log("search form send");
     //récupérer toutes les input d'un formulaire
     var formData = {};
     formData['keywords'] = document.getElementById('keywords').value;
@@ -29,7 +26,6 @@ function submit_search_form(){
             formData['caracteristiques'].push(inputs[i].value);
         }
     }
-    console.log(formData);
     var xhr = new XMLHttpRequest();
     xhr.open('POST', 'search.php', true);
     //send json formData

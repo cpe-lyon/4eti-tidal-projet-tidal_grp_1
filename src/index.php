@@ -58,7 +58,6 @@ switch ($_GET['page']) {
                     WHERE keywords.name in ('voix','vomissement')";
       
         $valren = requestSQL($request, null, "acudb");
-        $txt = "<script>console.log('PHP: " . $valren . "');</script>";
         for ($i = 0; $i < count($valren); $i++) {
             $txt = $txt . "<p>Name : " .$valren[$i]["name"] . " Pathologie : " . $valren[$i]["pathodesc"] . "Symptôme : " . $valren[$i]["symptdesc"] . "Type : " . $valren[$i]["pathotype"] . "ID : " . $valren[$i]["pathoidp"] . "</p><br>";
         }

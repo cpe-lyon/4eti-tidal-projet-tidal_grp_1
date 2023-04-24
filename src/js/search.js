@@ -27,7 +27,7 @@ function submit_search_form(){
         }
     }
     var xhr = new XMLHttpRequest();
-    xhr.open('POST', 'search.php', true);
+    xhr.open('POST', 'controller/search.php', true);
     //send json formData
     xhr.setRequestHeader("Content-Type", "application/json");
     xhr.send(JSON.stringify(formData));

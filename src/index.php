@@ -1,6 +1,6 @@
 <?php
 // Note : Smarty a un 'S' majuscule
-require_once('../libs/Smarty.class.php');
+require_once('./libs/Smarty.class.php');
 require_once('utils/login_utils.php');
 require_once('utils/script.php');
 require_once('controller/search.php');

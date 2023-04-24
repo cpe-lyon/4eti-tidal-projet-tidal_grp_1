@@ -12,7 +12,7 @@
 <body class="login-page">
     <div class="login-box">
         <h2 class="heading-login-box">Inscription</h2>
-        <form action="/register-form.php" method="post">
+        <form action="controller/register-form.php" method="post">
             <div class="user-box">
                 <input class="user-box-input" type="text" required name="last_name">
                 <label class="user-box-label">Nom</label>

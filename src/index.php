@@ -3,7 +3,7 @@
 require_once('../libs/Smarty.class.php');
 require_once('./utils/login_utils.php');
 require_once('./utils/script.php');
-require_once('./controller/search.php')
+require_once('./controller/search.php');
 
 $smarty = new Smarty();
 session_start();

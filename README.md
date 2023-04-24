@@ -30,12 +30,14 @@
 - `src/` : Contient le code source du projet
     - `/css`,`/html`,`/js` : Contient les fichiers css, html (templates tpl pour smarty) et js
     - `index.php` : Fichier d'entrée du projet
+- `/utils` : Contient les fonctions php utilisées dans le projet
     - `login_utils.php` : Contient les fonctions de gestion des utilisateurs
+    - `script.php` : Permet de faire des requêtes à la base de données
+- `/controllers` : Contient les contrôleurs du projet
     - `login-form.php` : Vérifie le formulaire de connexion
     - `logout.php` : Déconnecte l'utilisateur
     - `profile_form.php` : Vérifie le formulaire de modification du compte
     - `register_form.php` : Vérifie le formulaire d'inscription
-    - `script.php` : Permet de faire des requêtes à la base de données
     - `search.php` : Permet de faire des recherches sur les pathologies
 
 ## Structure de la base de données

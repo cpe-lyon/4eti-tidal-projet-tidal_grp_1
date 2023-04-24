@@ -98,10 +98,6 @@
 	width: 20%;
 	margin-top: 24px;
 }
-input{
-	width: auto;
-	align-items: center;
-}
 
 .button:hover {
 	background: #981444;
@@ -118,4 +114,9 @@ input{
 
 .text {
 	text-align: center;
+}
+
+input{
+	width: auto;
+	align-items: center;
 }

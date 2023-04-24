@@ -3,7 +3,7 @@
 require_once('../utils/script.php');
 require_once('../../libs/Smarty.class.php');
 $smarty = new Smarty();
-$smarty->setTemplateDir('../templates_c');
+$smarty->setCompileDir('../templates_c');
 /* Reception du JSON */
 $jsonData = file_get_contents("php://input");
 /* Verifie si JSON est vide */

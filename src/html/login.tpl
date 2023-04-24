@@ -1,7 +1,7 @@
 <link rel="stylesheet" href='css/login.css'>
 <div class="login-box">
   <h2 class="heading-login-box">Login</h2>
-  <form action="/login-form.php" method="post">
+  <form action="controller/login-form.php" method="post">
     <div class="user-box">
       <input class="user-box-input" type="email" required name="email" pattern="[a-zA-Z0-9._%+-]+@cpe\.fr">
       <label class="user-box-label">Username (email cpe)</label>

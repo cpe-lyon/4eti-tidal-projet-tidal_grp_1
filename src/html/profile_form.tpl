@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="css/profile.css">
 <h2>Modifier mon profil</h2>
 <div class="container-profile">
-    <form action="/profile_form.php" method="post">
+    <form action="controller/profile_form.php" method="post">
 	<div class="grid">
 		<div class="form-group">
 			<label for="name">Nom</label>

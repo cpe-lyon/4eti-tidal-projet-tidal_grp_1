@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/footer.less"></link>
+<link rel="stylesheet" href="css/footer.css"></link>
 <ul>
   <li><a href="https://twitter.com/julesforrest">Twitter</a></li>
   <li><a href="https://codepen.io/julesforrest">Codepen</a></li>

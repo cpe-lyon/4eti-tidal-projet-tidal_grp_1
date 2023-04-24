@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/profile.less">
+<link rel="stylesheet" href="css/profile.css">
 <h2>Modifier mon profil</h2>
 <div class="container-profile">
     <form action="/profile_form.php" method="post">
@@ -12,7 +12,7 @@
 			<label for="first-name">Prénom</label>
 			<input id="first-name" type="text" name="name" required>
 		</div>
-		
+
 		<div class="form-group email-group">
 			<label for="email">Email (CPE)</label>
 			<input id="email" type="email" name="email" required>

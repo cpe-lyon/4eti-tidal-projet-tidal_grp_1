@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/pathologie.less"></link>
+<link rel="stylesheet" href="css/pathologie.css"></link>
 <div class="pathologie_container">
     <div class="result_page_content_item_title">
         <a>id:{$pathoidp}</a>

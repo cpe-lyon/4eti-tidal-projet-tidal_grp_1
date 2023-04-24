@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <title>TIDAL</title>
-    <link rel="stylesheet" href="css/template.less"></link>
+    <link rel="stylesheet" href="css/template.css"></link>
   </head>
   <body>
     <header>

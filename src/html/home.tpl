@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/home.less"></link>
+<link rel="stylesheet" href="css/home.css"></link>
 <h3>Bienvenue sur le site d'Assopuncture</h3>
 <span>L'Association d’acupuncteurs en médecine traditionnelle chinoise</span>
 <p> 

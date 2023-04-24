@@ -14,6 +14,7 @@
     <div class="content">
       {$content}
     </div>
+    <?p echo $_GET; ?>
     <footer>
       {include file="html/footer.tpl"}
     </footer>

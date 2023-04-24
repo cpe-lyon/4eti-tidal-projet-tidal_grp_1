@@ -5,8 +5,6 @@ require_once('./utils/login_utils.php');
 require_once('./utils/script.php');
 require_once('./controller/search.php');
 
-echo $_GET;
-
 $smarty = new Smarty();
 session_start();
 $valid_session = is_valid_session();

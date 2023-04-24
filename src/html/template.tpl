@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>TIDAL</title>
     <link rel="stylesheet" href="css/template.css"></link>
+    <link rel="icon" type="image/png" href="images/logo.png">
   </head>
   <body>
     <header>

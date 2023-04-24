@@ -1,7 +1,7 @@
 <?php
 
 require_once('../utils/script.php');
-require_once('../libs/Smarty.class.php');
+require_once('../../libs/Smarty.class.php');
 $smarty = new Smarty();
 
 /* Reception du JSON */

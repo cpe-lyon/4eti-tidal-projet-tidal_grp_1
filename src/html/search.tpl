@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="css/search.css">
 </link>
-<form class="filter_menu" id="form_menu" action="controller/search.php" method="post"> {* ou get ? avec du js ?*}
+<form class="filter_menu" id="form_menu" action="FFsearch.php" method="post"> {* ou get ? avec du js ?*}
  <input id="keywords" class="" placeholder="Que recherchez-vous ?" value="">
  <div id="meridien_form" class="dropdown"> Meridiens <div class="dropdown-content">
     {foreach from=$meridiens item=$meridien}

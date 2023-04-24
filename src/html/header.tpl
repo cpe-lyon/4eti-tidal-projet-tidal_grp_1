@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="css/header.css"></link>
+<link rel="icon" type="image/png" href="images/logo.png">
 
 <ul>
   <li><a href="/?page=home">Home</a></li>

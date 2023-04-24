@@ -1,6 +1,6 @@
 <?php
 
-require_once('.utils/script.php');
+require_once('./utils/script.php');
 
 function is_valid_user($email, $password){
     $sql_get_user = "SELECT * FROM users WHERE email = :email";

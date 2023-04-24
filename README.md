@@ -1,25 +1,42 @@
 # 4ETI – Techniques de l’Internet Dynamique et Architecture Logicielle
 
-## Prise en main du projet
+## Auteurs
 
-###### Expression du besoin
-- [x] Interprétation du cahier des charges [Joseph POURADIER DUTEIL](https://github.com/jo-pouradier)
+@HuguesFARTH
+@Pierrelouis2
+@jo-pouradier
+@Adri1D
+## Objectifs
 
-###### Maquette statique du site
-- [ ] Faire une première interface du site [Pierre-Louis TELEP](https://github.com/Pierrelouis2)
+- Créer un site web dynamique
+- Réaliser une application web pour consulter la liste des symptomes des principales pathologies en acupuncture
+- Pouvoir filtrer les pathologies par symptomes si on est connecté
+- Créer un compte utilisateur ou pouvoir se connecter avec un compte existant
+- Gestions des comptes utilisateurs
+  
 
-###### Prise en main PHP
-- [ ] Découvrir PHP [Adrien DABLEIGUE](https://github.com/Adri1D)
+## Technologies utilisées
 
-###### BDD
-- [ ] Découvert de la base de donnée [Hugues FARTHOUAT](https://github.com/HuguesFARTH)
+- PHP 8.1
+- Postgresql 14
+- HTML5, less, JS
+- smarty 3.1.39
 
+## URL du site
+ http://34.125.130.69/?page=home 
 
-## Création de l'environnement 
+## Architecture du projet
 
-- install php = [How To Install PHP 8.2 on Ubuntu 22.04 - TechvBlogs](https://techvblogs.com/blog/install-php-8-2-ubuntu-22-04)
-- install apache2 = [How To Install the Apache Web Server on Ubuntu 22.04 | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-22-04)
-- install postgresql = [How To Install the Apache Web Server on Ubuntu 22.04 | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-22-04)
+- `src/` : Contient le code source du projet
+    - `/css`,`/html`,`/js` : Contient les fichiers css, html (templates tpl pour smarty) et js
+    - `index.php` : Fichier d'entrée du projet
+    - `login_utils.php` : Contient les fonctions de gestion des utilisateurs
+    - `login-form.php` : Vérifie le formulaire de connexion
+    - `logout.php` : Déconnecte l'utilisateur
+    - `profile_form.php` : Vérifie le formulaire de modification du compte
+    - `register_form.php` : Vérifie le formulaire d'inscription
+    - `script.php` : Permet de faire des requêtes à la base de données
+    - `search.php` : Permet de faire des recherches sur les pathologies
 
-
-
+## Structure de la base de données
+![](./src/images/Untitled.png)

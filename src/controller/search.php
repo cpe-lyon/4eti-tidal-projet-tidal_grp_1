@@ -1,7 +1,7 @@
 <?php
 
-require_once('./script.php');
-require_once('../libs/Smarty.class.php');
+require_once('../utils/script.php');
+require_once('../../libs/Smarty.class.php');
 $smarty = new Smarty();
 
 /* Reception du JSON */
@@ -65,6 +65,6 @@ foreach ($result as $key => $value) {
     foreach ($value as $k => $v) {
         $smarty->assign($k,$v);
     }
-    $smarty->display('./html/pathologie.tpl');
+    $smarty->display('../html/pathologie.tpl');
 }
 ?>

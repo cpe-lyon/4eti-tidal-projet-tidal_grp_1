@@ -1,6 +1,6 @@
 <?php 
-require_once('./script.php');
-require_once('./login_utils.php');
+require_once('../utils/script.php');
+require_once('../utils/login_utils.php');
 
 session_start();
 

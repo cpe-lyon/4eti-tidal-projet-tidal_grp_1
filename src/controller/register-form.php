@@ -1,5 +1,5 @@
 <?php 
-require_once('./script.php');
+require_once('../utils/script.php');
 
 $sql_create_user = "INSERT INTO users VALUES (:email,:password,:name ,:last_name)";
 $hashSecure = password_hash($_POST['password'], PASSWORD_DEFAULT); 

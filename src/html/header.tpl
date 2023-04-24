@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/header.less"></link>
+<link rel="stylesheet" href="css/header.css"></link>
 
 <ul>
   <li><a href="/?page=home">Home</a></li>

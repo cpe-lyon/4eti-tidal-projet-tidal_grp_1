@@ -6,6 +6,7 @@
     z-index: 0;
     color: #181929;
     border-radius: 10px;
+	width: 50%;
 }
 
 .form-group {
@@ -98,9 +99,6 @@
 	width: 20%;
 	margin-top: 24px;
 }
-input{
-	align-items: center;
-}
 
 .button:hover {
 	background: #981444;
@@ -117,4 +115,8 @@ input{
 
 .text {
 	text-align: center;
+}
+
+input{
+	width: auto;
 }

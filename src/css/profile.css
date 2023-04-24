@@ -6,6 +6,7 @@
     z-index: 0;
     color: #181929;
     border-radius: 10px;
+	width: 50%;
 }
 
 .form-group {
@@ -118,5 +119,4 @@
 
 input{
 	width: auto;
-	align-items: center;
 }
